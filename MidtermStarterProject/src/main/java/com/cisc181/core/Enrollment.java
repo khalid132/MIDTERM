@@ -6,7 +6,8 @@ public class Enrollment {
 	private UUID SectionID; 
 	public UUID StudentID; 
 	public UUID EnrollmentID; 
-	public double Grade; 
+	public double Grade;
+	
 	private Enrollment() {
 
 		
@@ -18,6 +19,8 @@ public class Enrollment {
 		
 	}
 
+	
+	
 	public UUID getSectionID() {
 		return SectionID;
 	}

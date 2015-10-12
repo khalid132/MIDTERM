@@ -6,6 +6,10 @@ import sun.util.calendar.BaseCalendar.Date;
 
 public class Semester {
 	public UUID SemesterID;
+	public Date StartDate; 
+	public Date EndDate; 
+	
+	
 	public UUID getSemesterID() {
 		return SemesterID;
 	}
@@ -24,8 +28,7 @@ public class Semester {
 	public void setEndDate(Date endDate) {
 		EndDate = endDate;
 	}
-	public Date StartDate; 
-	public Date EndDate; 
+
 	
 	
 

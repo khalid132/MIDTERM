@@ -13,7 +13,7 @@ public abstract class Person {
 	private String MiddleName;
 	private String LastName;
 	private String address;
-	private String phone_number;
+	public String phone_number;
 	private String email_address;
 
 	public String getFirstName() {
